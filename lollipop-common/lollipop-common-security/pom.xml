@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.lollipop</groupId>
+        <artifactId>lollipop-common</artifactId>
+        <version>20220627</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>lollipop-common-security</artifactId>
+    <description>安全模块</description>
+    <packaging>jar</packaging>
+    <dependencies>
+        <!-- lollipop Framework Basic -->
+        <dependency>
+            <groupId>org.drod.cloud</groupId>
+            <artifactId>drod-framework-starters-basic</artifactId>
+        </dependency>
+
+        <!-- E9 Framework Lettuce -->
+        <dependency>
+            <groupId>org.drod.cloud</groupId>
+            <artifactId>drod-framework-starters-lettuce</artifactId>
+        </dependency>
+
+        <!-- lollipop Common Core -->
+        <dependency>
+            <groupId>com.lollipop</groupId>
+            <artifactId>lollipop-common-core</artifactId>
+        </dependency>
+
+        <!-- lollipop Api System -->
+        <dependency>
+            <groupId>com.lollipop</groupId>
+            <artifactId>lollipop-api-system</artifactId>
+        </dependency>
+        <!-- Mybatis-Plus -->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <!-- Spring Web -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>

@@ -1,0 +1,10 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.lollipop.system.api.organize.feign.factory.RemoteDeptFallbackFactory,\
+  com.lollipop.system.api.organize.feign.factory.RemotePostFallbackFactory,\
+  com.lollipop.system.api.organize.feign.factory.RemoteUserFallbackFactory,\
+  com.lollipop.system.api.authority.feign.factory.RemoteLoginFallbackFactory,\
+  com.lollipop.system.api.authority.feign.factory.RemoteMenuFallbackFactory,\
+  com.lollipop.system.api.authority.feign.factory.RemoteAuthFallbackFactory,\
+  com.lollipop.system.api.dict.feign.factory.RemoteConfigFallbackFactory,\
+  com.lollipop.system.api.log.feign.factory.RemoteLogFallbackFactory,\
+  com.lollipop.system.api.source.feign.factory.RemoteSourceFallbackFactory

@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.lollipop.common.core.utils.SpringUtils
+
+  
